@@ -1,8 +1,7 @@
 import React from "react";
 import { motion } from 'framer-motion';
 
-
-// Sample project data
+// ✅ All project data must go here
 const projects = [
   {
     title: "WHESS Website",
@@ -14,7 +13,7 @@ const projects = [
     title: "MochoCare App",
     description: "A holistic digital health solution focused on reproductive and mental health for African women.",
     tech: ["Express js"],
-    link: "https://mocho-wellness-app.onrender.com/", // Replace with real link when ready
+    link: "https://mocho-wellness-app.onrender.com/",
   },
   {
     title: "Pad a Girl Campaign",
@@ -22,11 +21,23 @@ const projects = [
     tech: ["HTML", "CSS", "JavaScript"],
     link: "#",
   },
+  {
+    title: "Pitch Decks & Investor Presentations",
+    description: "Designed compelling pitch decks for social impact startups and nonprofits including MochoCare and Heva.",
+    tech: ["Canva", "Figma", "PowerPoint"],
+    link: "https://www.canva.com/design/DAGusOZfSjM/QrX_EXZIK5MW_jki2kqgBA/edit?utm_content=DAGusOZfSjM&utm_campaign=designshare&utm_medium=link2&utm_sources=sharebutton",
+  },
+  {
+    title: "CodeHer Hackathon Project",
+    description: "Built a data collection and storage tool for entrepreneur support during the CodeHer Hackathon hosted by PLP.",
+    tech: ["Vite React", "Figma", "MongoDB"],
+    link: "https://rhyme-crow-88911875.figma.site/",
+  },
 ];
 
 const Projects = () => {
   return (
-    <section id="projects" className=" py-20 px-4">
+    <section id="projects" className="py-20 px-4">
       <div className="max-w-6xl mx-auto">
         <motion.h2
           className="text-3xl md:text-4xl font-bold text-center mb-12"
