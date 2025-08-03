@@ -3,9 +3,9 @@ import { Github, Linkedin, Mail } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="max-auto  text-center py-8 mt-12">
+    <footer className="bg-blue-950 max-auto  text-center py-8 mt-12">
       <div className="max-w-4xl mx-auto px-4 space-y-4">
-        <p className="text-lg font-semibold">Let’s connect ✨</p>
+        <p className="text-lg text-white font-semibold">Let’s connect ✨</p>
 
         <div className="flex justify-center gap-6">
           <a

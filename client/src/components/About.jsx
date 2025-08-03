@@ -29,8 +29,8 @@ const About = () => {
           <p>
             I’ve worked with nonprofits, startups, and mission-driven
             organizations like <strong>WHESS</strong> and <strong>MOCHO</strong>,
-            building digital tools that improve lives and drive impact. i recently participated in code her hackathon 
-            where I was able to come up with a solution for data collection and storage tool for enterprenuer support.
+            building digital tools that improve lives and drive impact. I recently participated in <strong>CodeHer</strong> hackathon hosted by PLP
+            where as a team of three we were able to come up with a solution for data collection and storage tool for entrepreneur support.
             My approach combines clean design, accessibility, and performance to create meaningful user experiences.
           </p>
 
@@ -48,7 +48,7 @@ const About = () => {
         <div className="mt-10 text-center">
           <a
             href="#projects"
-            className="inline-block bg-blue-400 text-white px-2 py-2  hover:white transition"
+            className="rounded-md bg-white px-4 py-2 text-sm font-semibold text-gray-900 shadow hover:bg-gray-100"
           >
             View My Projects
           </a>

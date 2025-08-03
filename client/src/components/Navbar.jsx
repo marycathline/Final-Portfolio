@@ -13,15 +13,15 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="fixed w-full bg-white shadow z-50">
+    <nav className="fixed w-full bg-blue-950 shadow z-50">
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-        <h1 className="text-xl font-bold">mary.dev</h1>
+        <h1 className="text-xl text-whhite font-bold">Mary.Dev</h1>
 
         {/* Desktop menu */}
         <ul className="hidden md:flex space-x-6 font-medium">
           {navItems.map((item) => (
             <li key={item.link}>
-              <a href={item.link} className="hover:text-blue-500">
+              <a href={item.link} className="hover:text-white">
                 {item.label}
               </a>
             </li>
