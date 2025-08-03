@@ -9,19 +9,21 @@ const Navbar = () => {
     { label: "About", link: "#about" },
     { label: "Projects", link: "#projects" },
     { label: "Services", link: "#services" },
-    { label: "Contact", link: "#contact" },
+    { label: "Testimonials", link: "#testimonials" },  // ✅ Added
+    { label: "FAQ", link: "#faq" },                    // ✅ Added
+    { label: "Contact", link: "#contact" }
   ];
 
   return (
     <nav className="fixed w-full bg-blue-950 shadow z-50">
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-        <h1 className="text-xl text-whhite font-bold">Mary.Dev</h1>
+        <h1 className="text-xl text-blue-600 font-bold">Mary.Dev</h1>
 
         {/* Desktop menu */}
-        <ul className="hidden md:flex space-x-6 font-medium">
+        <ul className="hidden md:flex space-x-6 font-medium text-white">
           {navItems.map((item) => (
             <li key={item.link}>
-              <a href={item.link} className="hover:text-white">
+              <a href={item.link} className="hover:text-blue-400">
                 {item.label}
               </a>
             </li>
@@ -29,7 +31,7 @@ const Navbar = () => {
         </ul>
 
         {/* Mobile menu toggle */}
-        <button onClick={() => setIsOpen(!isOpen)} className="md:hidden">
+        <button onClick={() => setIsOpen(!isOpen)} className="md:hidden text-white">
           {isOpen ? <X /> : <Menu />}
         </button>
       </div>
@@ -42,7 +44,7 @@ const Navbar = () => {
               <li key={item.link}>
                 <a
                   href={item.link}
-                  className="block text-gray-700 hover:text-blue-500"
+                  className="block text-white hover:text-blue-300"
                   onClick={() => setIsOpen(false)}
                 >
                   {item.label}

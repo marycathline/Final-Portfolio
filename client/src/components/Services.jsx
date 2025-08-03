@@ -19,7 +19,7 @@ const services = [
   {
     title: "Mobile App Support",
     description:
-      "Prototyping and front-end development for cross-platform apps using React Native and Firebase.",
+      "Prototyping and front-end development for cross-platform apps.",
     icon: <Smartphone size={36} className="text-blue-600" />,
   },
 ];
