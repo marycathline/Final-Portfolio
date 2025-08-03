@@ -6,7 +6,7 @@ const About = () => {
     <section className=" py-20 px-4" id="about">
       <div className="max-w-5xl mx-auto">
         <motion.h2
-          className="text-3xl md:text-4xl font-bold mb-6 text-center"
+          className="text-3xl md:text-4xl text-blue-950 font-bold mb-6 text-center"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
@@ -21,9 +21,9 @@ const About = () => {
           transition={{ delay: 0.2, duration: 0.8 }}
         >
           <p>
-            I have over one year in the tech field as a passionate web developer and digital problem solver based in Kenya.
-            With a strong background in building intuitive and responsive user interfaces, I specialize in React, 
-            Tailwind CSS, and modern front-end technologies.
+            As a passionate web developer and digital problem solver based in Kenya,
+            I have a strong background in building intuitive and responsive user interfaces. 
+            I specialize in MERN STACK, Tailwind CSS, and modern front-end technologies.
           </p>
 
           <p>
@@ -48,7 +48,7 @@ const About = () => {
         <div className="mt-10 text-center">
           <a
             href="#projects"
-            className="rounded-md bg-white px-4 py-2 text-sm font-semibold text-gray-900 shadow hover:bg-gray-100"
+            className="rounded-md bg-white px-4 py-2 text-sm font-semibold text-blue-950 shadow hover:bg-gray-100"
           >
             View My Projects
           </a>

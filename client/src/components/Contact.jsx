@@ -7,6 +7,22 @@ const Contact = () => {
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">
           Contact Me
         </h2>
+        <p className="text-sm text-center text-gray-500">
+  Mary Cathline • Nairobi, Kenya • +254 710 600 451/+254720883861 •
+</p>
+<div className="flex justify-center">
+  <a
+    href="https://wa.me/254710600451"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-blue-600 hover:underline"
+  >
+    Link to WhatsApp
+  </a>
+</div>
+
+
+
 
         <form
           action="https://formsubmit.co/marycathln@gmail.com"

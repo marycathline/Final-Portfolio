@@ -4,12 +4,12 @@ import { getFirestore } from "firebase/firestore";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAWokgDa73p47UI33FVS1o9tlGibLwb_bo",
-  authDomain: "maryportfoliotestimonials.firebaseapp.com",
-  projectId: "maryportfoliotestimonials",
-  storageBucket: "maryportfoliotestimonials.firebasestorage.app",
-  messagingSenderId: "513643677292",
-  appId: "1:513643677292:web:dd375675330ac28775fa49"
+ apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
 };
 
 // Initialize Firebase

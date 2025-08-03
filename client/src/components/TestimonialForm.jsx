@@ -57,7 +57,7 @@ const TestimonialForm = () => {
       <label className="block mb-2 font-medium">Rating:</label>
       <select
         value={testimonial.rating}
-        className="border p-2 mb-4 rounded"
+        className="text-blue-600 border-blue-600 p-2 px-4 mb-4 rounded"
         onChange={(e) => setTestimonial({ ...testimonial, rating: parseInt(e.target.value) })}
       >
         {[5, 4, 3, 2, 1].map((n) => (
@@ -68,7 +68,7 @@ const TestimonialForm = () => {
       <button
         type="submit"
         disabled={loading}
-        className="bg-black text-white px-4 py-2 rounded hover:bg-gray-800"
+        className="bg-white text-blue-600 px-4 py-2 rounded"
       >
         {loading ? 'Submitting...' : 'Submit'}
       </button>

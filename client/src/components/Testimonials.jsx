@@ -22,7 +22,7 @@ const Testimonials = () => {
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
-      <h2 className="text-3xl font-bold mb-6 text-center">🌟 What Others Say About My Work </h2>
+      <h2 className="text-3xl text-blue-950 font-bold mb-6 text-center">🌟 What Clients Say About My Work </h2>
 
       {testimonials.length === 0 ? (
         <p className="text-center text-gray-500">No testimonials yet.</p>

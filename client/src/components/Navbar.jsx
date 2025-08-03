@@ -11,7 +11,8 @@ const Navbar = () => {
     { label: "Services", link: "#services" },
     { label: "Testimonials", link: "#testimonials" },  // ✅ Added
     { label: "FAQ", link: "#faq" },                    // ✅ Added
-    { label: "Contact", link: "#contact" }
+    { label: "Contact", link: "#contact" },
+    { label: "Gallery", link: "/gallery" } // ✅ Added
   ];
 
   return (

@@ -7,7 +7,9 @@ import Testimonials from './components/Testimonials';
 import TestimonialForm from './components/TestimonialForm';
 import Contact from "./components/Contact";
 import FAQ from "./components/FAQ";
+import Gallery from "./pages/Gallery";
 import Footer from "./components/Footer";
+import { Route } from "lucide-react";
 
 function App() {
   return (
@@ -33,6 +35,9 @@ function App() {
         <section id="contact"><Contact /></section>
       </main>
       <Footer />
+      <Route path="/gallery" element={<Gallery />} />
+
+
     </div>
   );
 }
