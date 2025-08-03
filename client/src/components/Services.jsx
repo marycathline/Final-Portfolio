@@ -1,5 +1,4 @@
 import React from "react";
-import { motion } from "framer-motion";
 import { Code, Paintbrush, Smartphone } from "lucide-react"; // install lucide-react if not yet
 
 const services = [
