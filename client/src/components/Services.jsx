@@ -1,5 +1,7 @@
 import React from "react";
 import { Code, Paintbrush, Smartphone } from "lucide-react"; // install lucide-react if not yet
+import { motion } from 'framer-motion';
+
 
 const services = [
   {
