@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { ExternalLink, Github, Filter } from 'lucide-react';
 import { Card, CardContent } from './ui/card';
 import { Button } from './ui/button';
@@ -108,8 +108,8 @@ const GallerySection = () => {
     }
   ];
 
-  const filteredProjects = activeFilter === 'all'
-    ? projects
+  const filteredProjects = activeFilter === 'all' 
+    ? projects 
     : projects.filter(project => project.category === activeFilter);
 
   return (
