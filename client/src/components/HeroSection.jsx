@@ -1,6 +1,6 @@
 import { ArrowRight, Download } from 'lucide-react';
 import { Button } from './ui/button';
-import { ImageWithFallback } from './images/ImageWithFallback';
+import { ImageWithFallback } from './figma/ImageWithFallback';
 
 const HeroSection = () => {
   const scrollToSection = (sectionId) => {
