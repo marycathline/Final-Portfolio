@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { ExternalLink, Github, Filter } from 'lucide-react';
 import { Card, CardContent } from './ui/card';
 import { Button } from './ui/button';
-import { ImageWithFallback } from './figma/ImageWithFallback';
+import { ImageWithFallback } from './imagef/ImagewithFallback';
 
 const GallerySection = () => {
   const [activeFilter, setActiveFilter] = useState('all');

@@ -1,6 +1,6 @@
 import { ArrowRight, Download } from 'lucide-react';
 import { Button } from './ui/button';
-import { ImageWithFallback } from './figma/ImageWithFallback';
+import { ImageWithFallback } from './imagef/ImagewithFallback';
 
 const HeroSection = () => {
   const scrollToSection = (sectionId) => {
@@ -54,15 +54,15 @@ const HeroSection = () => {
             {/* Quick stats */}
             <div className="grid grid-cols-3 gap-6 pt-8 border-t border-gray-200">
               <div className="text-center">
-                <div className="text-2xl font-bold text-primary">50+</div>
+                <div className="text-2xl font-bold text-primary">10+</div>
                 <div className="text-sm text-gray-600">Projects Completed</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-primary">3+</div>
+                <div className="text-2xl font-bold text-primary">1+</div>
                 <div className="text-sm text-gray-600">Years Experience</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-bold text-primary">25+</div>
+                <div className="text-2xl font-bold text-primary">3+</div>
                 <div className="text-sm text-gray-600">Happy Clients</div>
               </div>
             </div>
@@ -71,16 +71,13 @@ const HeroSection = () => {
           {/* Profile Image */}
           <div className="flex justify-center lg:justify-end">
             <div className="relative">
-              <div className="w-80 h-80 md:w-96 md:h-96 rounded-full bg-gradient-to-br from-primary to-secondary p-1">
-                <div className="w-full h-full rounded-full bg-white p-4">
-                  <ImageWithFallback
-                    src="https://images.unsplash.com/photo-1494790108755-2616b612b786?auto=format&fit=crop&w=400&h=400"
-                    alt="Mary Cathline - Professional Portrait"
-                    className="w-full h-full object-cover rounded-full"
-                  />
-                </div>
+              <div className="w-80 h-80 md:w-96 md:h-96 rounded-full bg-gradient-to-br from-primary to-secondary p-1 overflow-hidden flex items-center justify-center">
+                <ImageWithFallback
+                  src="https://images.unsplash.com/photo-1494790108755-2616b612b786?auto=format&fit=crop&w=400&h=400"
+                  alt="Mary Cathline - Professional Portrait"
+                  className="w-full h-full object-cover rounded-full"
+                />
               </div>
-              
               {/* Floating elements */}
               <div className="absolute -top-4 -right-4 bg-white rounded-full p-3 shadow-lg">
                 <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse"></div>
